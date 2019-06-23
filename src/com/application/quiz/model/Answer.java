@@ -1,4 +1,4 @@
-package com.udaan.application.quiz.model;
+package com.application.quiz.model;
 
 public class Answer {
 

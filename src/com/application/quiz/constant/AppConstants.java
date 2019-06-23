@@ -1,4 +1,4 @@
-package com.udaan.application.quiz.constant;
+package com.application.quiz.constant;
 
 public class AppConstants {
 

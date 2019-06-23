@@ -1,4 +1,4 @@
-package com.udaan.application.quiz.main;
+package com.application.quiz.main;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -7,12 +7,12 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
-import com.udaan.application.quiz.constant.AppConstants.Answers;
-import com.udaan.application.quiz.constant.AppConstants.Questions;
-import com.udaan.application.quiz.model.Answer;
-import com.udaan.application.quiz.model.Question;
-import com.udaan.application.quiz.model.Quiz;
-import com.udaan.application.quiz.model.User;
+import com.application.quiz.constant.AppConstants.Answers;
+import com.application.quiz.constant.AppConstants.Questions;
+import com.application.quiz.model.Answer;
+import com.application.quiz.model.Question;
+import com.application.quiz.model.Quiz;
+import com.application.quiz.model.User;
 
 public class Driver {
 
@@ -92,7 +92,7 @@ public class Driver {
 				System.out.println("Bad Input!");
 			}
 
-			System.out.println("Enter CONTINUE to try again OR STOP.");
+			System.out.println("Enter CONTINUE to try again or STOP.");
 			String command = sc.next();
 			if (command.equals("STOP")) {
 				break;
